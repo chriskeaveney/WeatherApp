@@ -25,7 +25,7 @@ supplied by the user. The project was carried out using SCRUM agile software dev
 - Allow location access from broswer to see location forecast
 - Search for a weather forecast by entering a city name
 
-![](img/app.gif)
+![](weatherApp/img/app.gif)
 
 # Testing
 - This app was tested using JEST & Postman
@@ -38,7 +38,7 @@ Postman:
 
 - Used to test login & register form validation
 
-![](img/register.png)
+![](weatherApp/img/register.png)
  
 1. Install Postman
 2. Select POST on dashboard
