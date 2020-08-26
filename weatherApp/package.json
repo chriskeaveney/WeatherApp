@@ -1,0 +1,46 @@
+{
+  "name": "mern-auth",
+  "version": "1.0.0",
+  "description": "Mern Auth Example",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "classnames": "^2.2.6",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-decode": "^2.2.0",
+    "material-components-web": "^7.0.0",
+    "mongoose": "^5.3.11",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-animated-weather": "^4.0.1",
+    "react-live-clock": "^4.0.5",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "validator": "^10.11.0"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>__tests__/setup/setupEnzyme.js",
+    "testPathIgnorePatterns": [
+      "<rootDir>/__tests__/setup/"
+    ]
+  }
+}
