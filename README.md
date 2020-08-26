@@ -1,9 +1,9 @@
 # weatherApp
 
-Problem 2 - OpenWeather API
+OpenWeather API
 
 This application displays an interface showing the difference between the temperature in the users current location and a city
-supplied by the user. The project was carried out using SCRUM agile software development techniques in Trello.
+supplied by the user (using openWeatherMap public API). The project was carried out using SCRUM agile software development techniques in Trello.
 
 # Requirements
 
