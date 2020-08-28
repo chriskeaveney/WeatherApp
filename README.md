@@ -16,7 +16,7 @@ Firstly, you will have to set up a Mongo Atlas account AND an Open Weather Map a
 5. Connect to Your Cluster.
 6. Insert your MongoURI from Mongo Atlas into the keys.js file as shown below:
 
-![](images/api.png)
+![](weatherApp/img/api.png)
 
 Following this (after setting up an Open Weather Map account) you should receive an email with your API key
 
@@ -25,6 +25,8 @@ simply place this key in the following file:
 - client/src/dashboard/apiKeys.js
 
 ![](weatherApp/img/api2.png)
+
+- Then:
 
 1. Download or clone the repository
 2. cd AxonistaTest
