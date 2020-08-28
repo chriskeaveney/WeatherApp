@@ -24,7 +24,7 @@ simply place this key in the following file:
 
 - client/src/dashboard/apiKeys.js
 
-![](WeatherApp/img/api2.png)
+![](weatherApp/img/api2.png)
 
 1. Download or clone the repository
 2. cd AxonistaTest
