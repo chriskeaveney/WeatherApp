@@ -1,5 +1,5 @@
 // My openweathermap API keys
 module.exports = {
-  key: "782aa4d7f41d465f0ab6358bb11e5ee4",
+  key: "insert API keay here",
   base: "https://api.openweathermap.org/data/2.5/",
 };
