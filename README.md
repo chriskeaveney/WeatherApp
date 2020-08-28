@@ -7,6 +7,25 @@ supplied by the user (using openWeatherMap public API). The project was carried 
 
 # Requirements
 
+Firstly, you will have to set up a Mongo Atlas account AND an Open Weather Map account
+
+1. Create a Mongo Atlas Account.
+2. Deploy a Free Tier Cluster.
+3. Whitelist Your Connection IP Address.
+4. Create a Database User for Your Cluster.
+5. Connect to Your Cluster.
+6. Insert your MongoURI from Mongo Atlas into the keys.js file as shown below:
+
+![](images/api.png)
+
+Following this (after setting up an Open Weather Map account) you should receive an email with your API key
+
+simply place this key in the following file:
+
+- client/src/dashboard/apiKeys.js
+
+![](images/api2.png)
+
 1. Download or clone the repository
 2. cd AxonistaTest
 3. npm install (backend dependencies)
