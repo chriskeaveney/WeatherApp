@@ -1,4 +1,4 @@
-# weatherApp
+# WeatherApp
 
 OpenWeather API
 
