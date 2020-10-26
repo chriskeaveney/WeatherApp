@@ -5,6 +5,8 @@ OpenWeather API
 This application displays an interface showing the difference between the temperature in the users current location and a city
 supplied by the user (using openWeatherMap public API). The project was carried out using SCRUM agile software development techniques in Trello.
 
+😺 DEMO: https://chriskeaveney.github.io/Weather/#/ 😺
+
 # Requirements
 
 Firstly, you will have to set up a Mongo Atlas account AND an Open Weather Map account
@@ -34,7 +36,7 @@ simply place this key in the following file:
 4. cd client
 5. npm install (client dependencies)
 
-# To start
+# To Run (locally)
 
 1. npm run dev (in root folder)
 2. Open chrome browser and navigate to http://localhost:3000/ (if doesn't happen automatically)
